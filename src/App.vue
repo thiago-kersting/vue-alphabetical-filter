@@ -60,7 +60,7 @@ body {
   gap: 1rem;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .filter {
   position: fixed;
