@@ -1,4 +1,4 @@
-# vue-alphabetical-filter
+# alphabetical-filter-vue
 
 ## Project setup
 ```
