@@ -141,7 +141,7 @@ const adjustSliderPosition = () => {
   justify-content: center;
 }
 #filter__container li {
-  color: var(--secondary_00-color);
+  color: black;
   -webkit-touch-callout: none;
  -webkit-user-select: none;
  -khtml-user-select: none;
@@ -153,7 +153,6 @@ const adjustSliderPosition = () => {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: var(--secondary_00-color);
   opacity: 0.2;
   border-radius: 1rem;
   cursor: pointer;

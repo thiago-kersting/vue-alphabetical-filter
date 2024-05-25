@@ -60,11 +60,11 @@ body {
   gap: 1rem;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .filter {
   position: fixed;
-  right: 12px;
+  right: 1rem;
   top: 50%;
   transform: translateY(-40%);
 }
