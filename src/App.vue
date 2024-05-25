@@ -13,7 +13,9 @@
 </template>
 
 <script setup>
-import AlphabeticalFilter from './components/AlphabeticalFilter.vue';
+import AlphabeticalFilter from 'alphabetical-filter-vue';
+import 'alphabetical-filter-vue/dist/alphabeticalFilterVue.css';
+
 import { ref } from 'vue';
 // array for the alphabetical filter
 const array = [
