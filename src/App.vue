@@ -51,6 +51,9 @@ function scrollToKey(key) {
 </script>
 
 <style>
+body {
+  overflow-y: hidden;
+}
 .container {
   display:flex;
   flex-direction: column;

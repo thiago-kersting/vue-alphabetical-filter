@@ -158,6 +158,7 @@ const adjustSliderPosition = () => {
   border-radius: 1rem;
   cursor: pointer;
   top: 0;
+  background: blue;
 }
 </style>
 
