@@ -1,13 +1,16 @@
 {
   "name": "alphabetical-filter-vue",
   "version": "0.1.0",
-  "private": true,
+  "main": "./dist/alphabeticalFilterVue.common.js",
+  "description": "A library with a filter component with touch slider",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name alphabeticalFilterVue src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "alphabetical-filter-vue": "^0.1.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
@@ -39,5 +42,8 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
+  ],
+  "files": [
+    "dist/*"
   ]
 }
